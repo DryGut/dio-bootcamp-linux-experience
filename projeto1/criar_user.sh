@@ -3,7 +3,7 @@
 
 for n in guest{1..10};
 do
-useradd $n -c "Usuario Convidado" -m -s /bin/bash -p $(openssl passwd -crypt senha123)
+echo useradd $n -c "Usuario Convidado" -m -s /bin/bash -p $(openssl passwd -crypt senha123)
 done
 
 #utilizando um array nomes de usuários pré-definidos
