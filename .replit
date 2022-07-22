@@ -1,0 +1,4 @@
+run = "bash aulabootcamp.sh"
+
+[nix]
+channel = "stable-22_05"
